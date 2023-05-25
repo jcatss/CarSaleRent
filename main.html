@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cars hunter</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="gridStyle.css">
+	<link rel="stylesheet" href="TabletAdaptation.css">
+	<link rel="stylesheet" href="MobileAdaptation.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="scriptMain.js"></script>
+	<script src="gridScript.js"></script>
+</head>
+<body>
+	<div class="banner">
+		<h1>Choose your wings</h1>
+	</div>
+
+	<div class="authorization">
+		<div id="logo"><img src=""></div>
+		<div class="auth">
+			<div class="block log_in">Login</div>
+			<div class="block sign_in">Sign <br> in</div>
+		</div>
+	</div>
+
+
+		<nav class="menu">
+			<a class="toggle_nav">Menu</a>
+			<ul>
+				<li><a href="#">Main</a></li>
+				<li><a href="#About_us">About</a></li>
+				<li><a href="#Rules">Rules</a></li>
+				<li><a href="#">Rent car</a></li>
+				<li><a href="#">Sale car</a></li>
+			</ul>
+			<div class="search_block">
+				<input type="text" placeholder="search" class="search_txt">
+			</div>
+		</nav>
+
+
+	<div class="do_it">
+		<div class="opct">
+			<div class="doit_txt">Feel the speed. Enjoy the freedom</div>
+			<div class="doit_btn">
+				<button>Go to shop</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="About_us">
+		<h1>About company</h1>
+	</div>
+	<div class="about">
+		<div class="bg_about">
+		</div>
+		<div class="info">
+			Hi all. the company is with you ... For 20 years we have been importing and repairing cars from Europe and the USA for our customers on order. And so, 5 years ago, we thought about what if life could be simplified for people with rights, even for those who do not have a car.
+			<br>
+			<br>
+			<br>
+			Thus, the idea was born to create the possibility of renting cars that, for some reason, were not bought, but were brought, from class C to luxury cars. Graduation, wedding, just meeting with classmates - it doesn't matter. The main thing is that with us you can surprise anyone
+		</div>
+	</div>
+
+	<div id="Rules">
+		<h1>Rules for rent</h1>
+	</div>
+	<div class="rules">
+		<div class="bg_rules">
+		</div>
+		<div class="rules_txt">
+			We have created a unique offer on the market. Anyone who has a license can rent any car from our fleet. To do this, you just need to come to us with the rights, fill out the documents with the manager and voila, the car is yours for the selected time
+			<br>
+			<br>
+			<br>
+			Car rental starts at $100 a day for C-class cars and goes up to $2,000 for LUX or SPORT cars. In our fleet you will be able to pick up a car according to your needs, and we will do our best to make you enjoy our "Car For Rent" service. See you soon, we are waiting for you.
+		</div>
+	</div>
+	<h1 class="prod_cap">Cars</h1>
+	<div class="container_prod">
+		<div id="product-container"></div>
+	</div>
+
+	<div id="contact-form">
+		<div class="wrapper">
+			<div class="head_block_form">
+				<div></div>
+		  		<div><h2>For rent car</h2></div>
+		  		<button class="closebtn">X</button>
+		  	</div>
+	  		<div class="info_rent">
+	  			<p>Rental price from $100 per day depending on the choosen car. For more accurate information, fill out the form and our manager will contact you as soon as possible</p>
+	  		</div>
+	  		<form>
+	  			<label for="name">Name:</label>
+	    		<input type="text" id="name" name="name" required>
+
+	    		<label for="phone">Phone:</label>
+	    		<input type="tel" id="phone" name="email" required>
+
+	    		<label for="message">Message:</label>
+	    		<textarea id="message" name="message" required></textarea>
+
+	    		<button type="submit">Send</button>
+	  		</form>
+	  	</div>
+	</div>
+
+	<div id="sale-form">
+		<div class="wrapper">
+	  		<div class="head_block_form">
+				<div></div>
+		  		<div><h2>For sale car</h2></div>
+		  		<button class="closebtn">X</button>
+		  	</div>
+	  		<div class="info_rent">
+	  			<p>Price for car depending on the chosen car. For more accurate information, fill out the form and our manager will contact you as soon as possible</p>
+	  		</div>
+	  		<form id="sForm">
+	  			<label for="name">Name:</label>
+	    		<input type="text" id="name" name="name" required>
+
+	    		<label for="phone">Phone:</label>
+	    		<input type="tel" id="phone" name="email" required>
+
+	    		<label for="message">Message:</label>
+	    		<textarea id="message" name="message" required></textarea>
+
+	    		<button type="submit">Send</button>
+	  		</form>
+	  	</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* Add adaptability for tablets */
+#About_us {
+font-size: 20px;
+padding-left: 20px;
+}
+#Rules {
+font-size: 20px;
+padding-right: 20px;
+}
+.banner {
+font-size: 20px;
+}
+.block {
+margin: 2px 5px;
+width: 40px;
+height: 40px;
+}
+.search_txt {
+height: 30px;
+font-size: 16px;
+}
+.about{
+	margin-bottom: 0;
+	height: 400px;
+}
+.info {
+	width: 45%;
+	height: 375px;
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 0;
+}
+.rules{
+	margin: 0;
+	height: 400px;
+}
+
+.rules_txt{
+	margin-right: 3px;
+	margin-left: 3px;
+	width: 45%;
+	height: 375px;
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 0;
+}
+#About_us{
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	margin: 50px auto;
+}
+#Rules{
+	background-color: black;
+	color: white;
+	margin-top: 0;
+	font-size: 25px;
+	justify-content: center;
+}
+.do_it{
+	background-image: url("image/do_it.jpg");
+	background-size: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.doit_txt{
+	font-size: 30px;
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+}
+.opct{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.prod_cap{
+	margin-top: 0;
+}
+#product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+    margin: 0 auto;
+  }
+}
