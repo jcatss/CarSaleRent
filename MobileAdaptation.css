@@ -1,7 +1,15 @@
 @media only screen and (max-width: 767px) {
 /* Add adaptability for mobile devices */
+html{
+	overflow-x: hidden;
+}
+
 .banner{
 	text-align: center;
+	display: none;
+}
+.product:hover {
+  transform: scale(1);
 }
 .authorization {
 flex-direction: column;
@@ -11,6 +19,7 @@ align-items: center;
 width: 100%;
 margin-bottom: 10px;
 justify-content: center;
+align-items: center;
 }
 .toggle_nav{
 display: block;

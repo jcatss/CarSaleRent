@@ -34,21 +34,40 @@ body{
 	justify-content: center;
 	align-items: center;
 	font-size: 30px;
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: lightgray;
+	margin-right: 100px;
 }
 .authorization{
 	display: flex;
 	justify-content: space-between;
-	background-color: white;
+	background-color: lightgray;
 }
 .authorization .auth{
 	display: flex;
-	justify-content: flex-end;
-	display: none;
+	justify-content: center;
+	align-items: center;
+	padding-right: 50px;
+
 }
-.logo{
-	
+.dark_theme:hover, .light_theme:hover{
+	transform: scale(1.05);
+}
+.auth .dark_theme{
+	border-radius: 50%;
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+	box-shadow: 0 0 4px 2px black;
+}
+.auth .light_theme{
+	border-radius: 50%;
+	border: 1px solid black;
+	box-shadow: 0 0 4px 2px black;
+}
+
+#logo img{
+	width: 200px;
 }
 .block{
 	display: flex;

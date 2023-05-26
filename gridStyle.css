@@ -55,10 +55,10 @@
   cursor: pointer;
 }
 .sale{
-  background-color: #4CAF50;
+  background-color: #006400;
 }
 .rent{
-  background-color: #FF5722;
+  background-color: #a52a2a;
 }
 
 .sale:hover {
